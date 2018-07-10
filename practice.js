@@ -52,7 +52,8 @@ favoriteThings.brand = "Iron & Resin";
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food="Chicken Nuggets";
+favoriteThings.book="Harry Potter";
 
 
 
@@ -66,15 +67,16 @@ favoriteThings.brand = "Iron & Resin";
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
 
-//Code here
-
+var backPack = {};
+var item = "firstPocket"
+backPack["firstPocket"]= "chapstick";
 
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+//alert(backPack)
 
 
 
@@ -84,7 +86,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
 
-//Code here
+console.log(backPack)
 
 
 
@@ -107,7 +109,8 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in";
 
 
 
