@@ -43,7 +43,8 @@ var favoriteThings = {
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = "1987 Buick Regal Grand Nationial";
+favoriteThings.brand = "Iron & Resin";
 
 
 
